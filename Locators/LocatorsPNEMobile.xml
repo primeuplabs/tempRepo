@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locators>
+	<!-- PNEOffline - Padrão de Nomenclatura -->
+	<!-- Botão: 		Tela.BTNNomeBotao_SistOp -->
+	<!-- Cabeçalho: 	Header.Nome_SistOp -->
+	<!-- Campo Texto: 	Tela.TXTNomedoCampo_SistOp -->
+	<!-- Check Box: 	Tela.CheckNomedoCampoOpcao_SistOp -->
+	<!-- Combo Box: 	Tela.ComboNomedoCampo_SistOp -->
+	<!-- Opção do Menu: Menu.OpcaoNomedoLink_SistOp -->
+	<!-- RadioButton: 	Tela.RadioNomedoCampoOpcao_SistOp -->
+	<!-- Tabela: 		Tela.TabelaNomeTabela_SistOp -->
+
+<!-- Generico -->
+	<!-- iOS -->
+	<entry key="TelaGeral.BTNAjustes_iOS"						by="xpath"	value="//*[@accessibilityLabel='Ajustes' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='FaceTime']]" />
+	<entry key="TelaGeral.BTNModoAviao_iOS"						by="xpath"	value="//*[@text='Modo Avião' and @class='UIASwitch']" />
+	<entry key="TelaGeral.BTNWiFi_iOS"							by="xpath"	value="//*[@accessibilityLabel='wifi-button']" />
+	<entry key="TelaGeral.BTNPNEOffline_iOS"					by="xpath"	value="//*[@accessibilityLabel='br.com.ipiranga.pneoffline.hml']" />
+
+	
+<!-- Tela Login -->
+    		
+	<!-- iOS -->
+	<entry key="TelaLogin.TXTTitulo_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]]/*[@class='UIAView'])[1]/*[@class='UIAStaticText'])[1]" />
+	<entry key="TelaLogin.TXTUsuario_iOS"						by="xpath"	value="//*[@placeholder='Usuário']" />
+	<entry key="TelaLogin.TXTSenha_iOS"							by="xpath"	value="//*[@placeholder='Senha']" />
+	<entry key="TelaLogin.SwitchSalvarDados_iOS"				by="xpath"	value="//*[@class='UIASwitch']" />
+	<entry key="TelaLogin.BTNEntrarLogin_iOS"					by="xpath"	value="//*[@id='Entrar']" />
+	<entry key="TelaLogin.TXTMensagemErro_iOS"					by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[16]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaLogin.BTNFechar_iOS"						by="xpath"	value="//*[@class='UIAButton' and ./parent::*[./parent::*[./parent::*[@class='UIAView']]]]" />
+	
+	
+<!-- Tela Principal -->
+    		
+	<!-- iOS -->
+	<entry key="TelaPrincipal.TXTTitulo_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[3]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaPrincipal.BTNNovaProposta_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[1]" />
+	<entry key="TelaPrincipal.TXTBuscar_iOS"					by="xpath"	value="//*[@class='UIATextField']" />
+	<entry key="TelaPrincipal.BTNPesquisar_iOS"					by="xpath"	value="//*[@class='UIAButton' and ./parent::*[@class='UIAView']]" />
+	<entry key="TelaPrincipal.TXTMensagemErro_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[21]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	
+	
+<!-- Breadcrumb -->
+    		
+	<!-- iOS -->
+	<entry key="Breadcrumb.LinkMinhasPropostas_iOS"				by="xpath"	value="//*[@text='Minhas Propostas em Elaboração']" />
+	<entry key="Breadcrumb.LinkNegociacoes_iOS"					by="xpath"	value="//*[@text='Negociações']" />
+	<entry key="Breadcrumb.LinkExibicaoProposta_iOS"			by="xpath"	value="//*[@text='Exposição da Proposta']" />
+	<entry key="Breadcrumb.LinkExibicaoNegociacao_iOS"			by="xpath"	value="//*[@text='Exposição da Negociação' and @class='UIAButton']" />
+	
+	
+<!-- Menu Lateral -->
+    
+	<entry key="MenuLateral.BTNMenuLateral_iOS"					by="xpath"	value="//*[@text='menu button']" />
+	<entry key="MenuLateral.IconeUsuario_iOS"					by="xpath"	value="//*[@accessibilityLabel='ic_usuario']" />
+	<entry key="MenuLateral.BTNRetornar_iOS"					by="xpath"	value="//*[@class='UIAButton' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='ic_usuario'] and ./parent::*[@class='UIAView']]" />
+	<entry key="MenuLateral.BTNSair_iOS"						by="xpath"	value="//*[@class='UIAView' and @height>0 and ./*[@accessibilityLabel='ic_logout'] and ./*[@class='UIAView']]" />
+		
+	<!-- Principal -->
+	<entry key="MenuLateral.TXTUsuarioLogado_iOS"				by="xpath"	value="//*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='ic_usuario'] and ./parent::*[@class='UIAView']]" />
+	<entry key="MenuLateral.BTNRecolherMenu_iOS"				by="xpath"	value="//*[@class='UIAButton' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='ic_usuario'] and ./parent::*[@class='UIAView']]" />
+	<entry key="MenuLateral.BTNPropostasEnviadas_iOS"			by="xpath"	value="//*[@class='UIAView' and @height>0 and ./*[@class='UIAView'] and ./*[@accessibilityLabel='ic_document']]" />
+	<entry key="MenuLateral.BTNGerenciarClientes_iOS"			by="xpath"	value="//*[@class='UIAView' and @height>0 and ./*[@accessibilityLabel='ic_clients'] and ./*[@class='UIAView']]" />
+	<entry key="MenuLateral.BTNBaixarParametros_iOS"			by="xpath"	value="(//*[@class='UIATable']/*[./*[@accessibilityLabel='ic_download']])[1]" />
+	<entry key="MenuLateral.BTNCarregarPropostas_iOS"			by="xpath"	value="(//*[@class='UIATable']/*[./*[@accessibilityLabel='ic_download']])[2]" />
+	<entry key="MenuLateral.BTNAjuda_iOS"						by="xpath"	value="//*[@class='UIAView' and @height>0 and ./*[@class='UIAView'] and ./*[@accessibilityLabel='ic_help']]" />
+			
+	<!-- Negociações -->		
+	<entry key="MenuLateral.BTNExposicaoProposta_iOS"			by="xpath"	value="//*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='ic_exposition'] and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and ./parent::*[@class='UIAView']]" />
+	<entry key="MenuLateral.BTNExposicaoNegociacao_iOS"			by="xpath"	value="//*[@class='UIAView' and @height>0 and ./*[@class='UIAView'] and ./*[@text='ic_exposition']]" />
+	<entry key="MenuLateral.BTNFinalizarProposta_iOS"			by="xpath"	value="//*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='ic_finish_proposal'] and ./parent::*[@class='UIAView']]" />
+	<entry key="MenuLateral.BTNEnviarProposta_iOS"				by="xpath"	value="//*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='ic_send_proposal'] and ./parent::*[@class='UIAView']]" />
+	<entry key="MenuLateral.BTNCompartilharProposta_iOS"		by="xpath"	value="//*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='ic_send_mail'] and ./parent::*[@class='UIAView']]" />
+	
+
+<!-- Tela Enviar por Email -->	
+
+	<entry key="TelaEnviarEmail.BTNEnviarEmail_iOS"				by="xpath"	value="//*[@text='Mail']" />
+	<entry key="TelaEnviarEmail.BTNEnviar_iOS"					by="xpath"	value="//*[@text='Enviar']" />
+	<entry key="TelaEnviarEmail.TXTEnviarPara_iOS"				by="xpath"	value="//*[@accessibilityLabel='toField']" />
+	<entry key="TelaEnviarEmail.TXTAssunto_iOS"					by="xpath"	value="//*[@accessibilityLabel='subjectField']" />
+	<entry key="TelaEnviarEmail.BTNEmailSugestao_iOS"			by="xpath"	value="(//*/*[@text and @class='UIAView' and ./*[@text] and ./*[@class='UIAView']])[1]" />
+	
+<!-- Tela Carregar PNE -->	
+
+	<entry key="TelaCarregarPNE.TXTTitulo_iOS"					by="xpath"	value="//*[@text='Explorar' and @class='UIAView']" />
+	<entry key="TelaCarregarPNE.TXTBuscaPNE_iOS"				by="xpath"	value="//*[@placeholder='Buscar']" />
+	<entry key="TelaCarregarPNE.BTNCancelar_iOS"				by="xpath"	value="(//*/*[@class='UIAButton'])[18]" />
+	<entry key="TelaCarregarPNE.TXTNomearPNE_iOS"				by="xpath"	value="//*[@class='UIATextField' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIACollectionView']]]]]]]" />
+	<entry key="TelaCarregarPNE.BTNOk_iOS"						by="xpath"	value="//*[@text='OK']" />
+	<entry key="TelaCarregarPNE.BTNCancelarNomear_iOS"			by="xpath"	value="//*[@text='Cancelar']" />
+	<entry key="TelaCarregarPNE.MSGPropostaCarregada_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[19]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaCarregarPNE.MSGPropostaExistente_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[23]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+
+
+<!-- Tela Gerenciar Cliente -->
+    		
+	<!-- iOS -->
+	<entry key="TelaGerenciarCliente.BTNVoltar_iOS"					by="xpath"	value="//*[@id='back']" />
+	<entry key="TelaGerenciarCliente.TXTTitulo_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[3]/*[@class='UIAButton'])[2]" />
+	<entry key="TelaGerenciarCliente.TXTNome_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaGerenciarCliente.TXTZonaVenda_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[2]" />
+	<entry key="TelaGerenciarCliente.BTNPesquisar_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAView'])[2]" />
+	<entry key="TelaGerenciarCliente.BTNLimpar_iOS"					by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIAView'])[2]" />
+	<entry key="TelaGerenciarCliente.SwitchTodosClientes_iOS"		by="xpath"	value="//*[@class='UIASwitch']" />
+	<entry key="TelaGerenciarCliente.BTNCriarProposta_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[17]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAView'])[1]" />
+	<entry key="TelaGerenciarCliente.BTNAtualizarCliente_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[17]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIAView'])[1]" />
+	<entry key="TelaGerenciarCliente.BTNBaixarCliente_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[17]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[3]/*[@class='UIAView'])[1]" />
+	<entry key="TelaGerenciarCliente.BTNNovoCliente_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[17]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[4]/*[@class='UIAView'])[1]" />
+	<entry key="TelaGerenciarCliente.ColunaCNPJ_iOS"				by="xpath"	value="//*[@text='  CNPJ']" />
+	<entry key="TelaGerenciarCliente.ColunaZonaVenda_iOS"			by="xpath"	value="//*[@text='Zona de Venda' and ./parent::*[@text='  Cliente']]" />
+	<entry key="TelaGerenciarCliente.ColunaPontoVenda_iOS"			by="xpath"	value="//*[@text='Ponto de Venda']" />
+	<entry key="TelaGerenciarCliente.ColunaGrupoEconomico_iOS"		by="xpath"	value="//*[@text='Grupo Econômico']" />
+	<entry key="TelaGerenciarCliente.ColunaDataBaixada_iOS"			by="xpath"	value="//*[@text='Data Baixada']" />
+	<entry key="TelaGerenciarCliente.ColunaValidade_iOS"			by="xpath"	value="//*[@text='Validade']" />
+	<entry key="TelaGerenciarCliente.ColunaAssociar_iOS"			by="xpath"	value="//*[@text='Associar']" />
+	<entry key="TelaGerenciarCliente.DataBaixada_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@text and @class='UIAStaticText'])[5]" />
+	<entry key="TelaGerenciarCliente.DataValidade_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@text and @class='UIAStaticText'])[6]" />
+	<entry key="TelaGerenciarCliente.MSGGerenciarCliente_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[43]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaGerenciarCliente.TXTNovaProposta_iOS"			by="xpath"	value="//*[@class='UIAView' and @width>0 and @height>0 and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIACollectionView']]]]] and ./*[@class='UIATextField']]" />
+
+	<entry key="TelaGerenciarCliente.BTNAssociar_iOS"				by="xpath"	value="//*[@class='UIAButton' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIASwitch'] and ./parent::*[@class='UIAView']]" />
+	<entry key="TelaGerenciarCliente.BTNDesassociar_iOS"			by="xpath"	value="//*[@text='ic desassociar']" />
+	<entry key="TelaGerenciarCliente.BTNApagar_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAButton'])[2]" />
+	<entry key="TelaGerenciarCliente.BTNConfirmarApagar_iOS"		by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[2]" />
+	<entry key="TelaGerenciarCliente.BTNCancelarApagar_iOS"			by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[1]" />
+	<entry key="TelaGerenciarCliente.MSGDesassociarCliente_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[43]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@text and @class='UIAStaticText'])[2]" />
+	<entry key="TelaGerenciarCliente.BTNConfirmarDesassociar_iOS"	by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[2]" />
+	<entry key="TelaGerenciarCliente.BTNCancelarDesassociar_iOS"	by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[1]" />
+	<entry key="TelaGerenciarCliente.TXTGrupoEconomico_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@text and @class='UIAStaticText'])[5]" />
+	<entry key="TelaGerenciarCliente.TXTSemGrupoEconomico_iOS"		by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*/*[@class='UIAStaticText' and ./parent::*[@class='UIAView']])[1]" />
+
+	
+<!-- Tela Criar Novo Cliente -->
+    		
+	<!-- iOS -->
+	<entry key="TelaCriarNovoCliente.TXTTitulo_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIAButton'])[3]" />
+	<entry key="TelaCriarNovoCliente.BTNCancelar_iOS"					by="xpath"	value="((//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView'] and ./parent::*[@class='UIAView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAView'])[1]" />
+	<entry key="TelaCriarNovoCliente.BTNSalvar_iOS"						by="xpath"	value="((//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView'] and ./parent::*[@class='UIAView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIAView'])[1]" />
+	<entry key="TelaCriarNovoCliente.FiltroGerenciaComercial_iOS"		by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[4]" />
+	<entry key="TelaCriarNovoCliente.TXTGerenciaComercial_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='drop-down-arrow']])[1]" />
+	<entry key="TelaCriarNovoCliente.FiltroGerenciaVenda_iOS"			by="xpath"	value="//*[@text and @class='UIAStaticText' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIATable']] and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']]" />
+	<entry key="TelaCriarNovoCliente.TXTGerenciaVenda_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='drop-down-arrow']])[2]" />
+	<entry key="TelaCriarNovoCliente.FiltroZonaVendas_iOS"				by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[2]" />
+	<entry key="TelaCriarNovoCliente.TXTZonaVendas_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='drop-down-arrow']])[3]" />
+	<entry key="TelaCriarNovoCliente.FiltroBaseSupridora_iOS"			by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[3]" />
+	<entry key="TelaCriarNovoCliente.TXTBaseSupridora_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='drop-down-arrow']])[4]" />
+	
+	<entry key="TelaCriarNovoCliente.TXTRazaoSocial_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaCriarNovoCliente.TXTEndereco_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIATextField'])[3]" />
+	<entry key="TelaCriarNovoCliente.TXTCEP_iOS"						by="xpath"	value="//*[@placeholder='00.000-000']" />
+	<entry key="TelaCriarNovoCliente.TXTBairro_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIATextField'])[5]" />
+	
+	<entry key="TelaCriarNovoCliente.TXTUF_iOS"							by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[1]" />
+	<entry key="TelaCriarNovoCliente.FiltroUF_iOS"						by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[10]" />
+	<entry key="TelaCriarNovoCliente.TXTMunicipio_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[2]" />
+	<entry key="TelaCriarNovoCliente.FiltroMunicipio_iOS"				by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[7]" />
+	<entry key="TelaCriarNovoCliente.TXTPerfil_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[4]" />
+	<entry key="TelaCriarNovoCliente.FiltroPerfil_iOS"					by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[4]" />
+	<entry key="TelaCriarNovoCliente.TXTAtividade_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[5]" />
+	<entry key="TelaCriarNovoCliente.FiltroAtividade_iOS"				by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[2]" />
+	<entry key="TelaCriarNovoCliente.TXTImagem_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[6]" />
+	<entry key="TelaCriarNovoCliente.FiltroImagem_iOS"					by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[2]" />
+	<entry key="TelaCriarNovoCliente.MSGCriadoSucesso_iOS"				by="xpath"	value="//*[@text='Cliente salvo com sucesso']" />
+	<entry key="TelaCriarNovoCliente.BTNOKCriadoSucesso_iOS"			by="xpath"	value="//*[@class='UIAButton' and ./parent::*[./parent::*[./parent::*[@class='UIAView']]]]" />
+	<entry key="TelaCriarNovoCliente.MSGCamposObrig_iOS"				by="xpath"	value="//*[@text='Campos obrigatórios não preenchidos']" />
+	<entry key="TelaCriarNovoCliente.BTNFecharCamposObrig_iOS"			by="xpath"	value="//*[@class='UIAButton' and ./parent::*[./parent::*[./parent::*[@class='UIAView']]]]" />
+
+<!-- Tela Editar Cliente -->
+    		
+	<!-- iOS -->
+	<entry key="TelaEditarCliente.TXTTitulo_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIAButton'])[3]" />
+	<entry key="TelaEditarCliente.BTNCancelar_iOS"						by="xpath"	value="((//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView'] and ./parent::*[@class='UIAView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAView'])[1]" />
+	<entry key="TelaEditarCliente.BTNSalvar_iOS"						by="xpath"	value="((//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView'] and ./parent::*[@class='UIAView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIAView'])[1]" />
+	<entry key="TelaEditarCliente.FiltroGerenciaComercial_iOS"			by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[4]" />
+	<entry key="TelaEditarCliente.TXTGerenciaComercial_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='drop-down-arrow']])[1]" />
+	<entry key="TelaEditarCliente.FiltroGerenciaVenda_iOS"				by="xpath"	value="//*[@text and @class='UIAStaticText' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIATable']] and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']]" />
+	<entry key="TelaEditarCliente.TXTGerenciaVenda_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='drop-down-arrow']])[2]" />
+	<entry key="TelaEditarCliente.FiltroZonaVendas_iOS"					by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[2]" />
+	<entry key="TelaEditarCliente.TXTZonaVendas_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='drop-down-arrow']])[3]" />
+	<entry key="TelaEditarCliente.FiltroBaseSupridora_iOS"				by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[3]" />
+	<entry key="TelaEditarCliente.TXTBaseSupridora_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='drop-down-arrow']])[4]" />
+	
+	<entry key="TelaEditarCliente.TXTRazaoSocial_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaEditarCliente.TXTEndereco_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIATextField'])[3]" />
+	<entry key="TelaEditarCliente.TXTCEP_iOS"							by="xpath"	value="//*[@placeholder='00.000-000']" />
+	<entry key="TelaEditarCliente.TXTBairro_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIATextField'])[5]" />
+	
+	<entry key="TelaEditarCliente.TXTUF_iOS"							by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[1]" />
+	<entry key="TelaEditarCliente.FiltroUF_iOS"							by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[10]" />
+	<entry key="TelaEditarCliente.TXTMunicipio_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[2]" />
+	<entry key="TelaEditarCliente.FiltroMunicipio_iOS"					by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[7]" />
+	<entry key="TelaEditarCliente.TXTPerfil_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[4]" />
+	<entry key="TelaEditarCliente.FiltroPerfil_iOS"						by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[4]" />
+	<entry key="TelaEditarCliente.TXTAtividade_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[5]" />
+	<entry key="TelaEditarCliente.FiltroAtividade_iOS"					by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[2]" />
+	<entry key="TelaEditarCliente.TXTImagem_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[6]" />
+	<entry key="TelaEditarCliente.FiltroImagem_iOS"						by="xpath"	value="(//*[@class='UIATable']/*/*[@text and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[2]" />
+	
+	<entry key="TelaEditarCliente.MSGCriadoSucesso_iOS"					by="xpath"	value="//*[@text='Cliente salvo com sucesso']" />
+	<entry key="TelaEditarCliente.BTNOKCriadoSucesso_iOS"				by="xpath"	value="//*[@class='UIAButton' and ./parent::*[./parent::*[./parent::*[@class='UIAView']]]]" />
+	<entry key="TelaEditarCliente.MSGCamposObrig_iOS"					by="xpath"	value="//*[@text='Campos obrigatórios não preenchidos']" />
+	<entry key="TelaEditarCliente.BTNFecharCamposObrig_iOS"				by="xpath"	value="//*[@class='UIAButton' and ./parent::*[./parent::*[./parent::*[@class='UIAView']]]]" />
+	
+<!-- Tela Associar Cliente -->
+    		
+	<!-- iOS -->
+	<entry key="TelaAssociarCliente.TXTTitulo_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[3]/*[@class='UIAButton'])[3]" />
+	<entry key="TelaAssociarCliente.TXTCNPJ_iOS"			by="xpath"	value="//*[@placeholder='00.000.000/0000-00']" />
+	<entry key="TelaAssociarCliente.TXTCliente_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[2]" />
+	<entry key="TelaAssociarCliente.TXTGrupo_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[3]" />
+	<entry key="TelaAssociarCliente.BTNPesquisar_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAView' and @width>0])[1]" />
+	<entry key="TelaAssociarCliente.BTNLimpar_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIAView' and @width>0])[1]" />
+	<entry key="TelaAssociarCliente.BTNCancelar_iOS"		by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*/*/*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]])[16]/*[@class='UIAView' and @width>0])[1]" />
+	<entry key="TelaAssociarCliente.BTNCancelarGrupo_iOS"	by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton'])[1]" />
+	<entry key="TelaAssociarCliente.TXTNomeGrupo_iOS"		by="xpath"	value="//*[@placeholder='Nome do Grupo Econômico']" />
+	<entry key="TelaAssociarCliente.BTNSalvar_iOS"			by="xpath"	value="//*[@class='UIAView' and ./*[@class='UIAView' and ./*[@class='UIAView'] and ./*[./*[@accessibilityLabel='save-circle']]]]" />
+	<entry key="TelaAssociarCliente.MSGAssociarCliente_iOS"	by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[30]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaAssociarCliente.TXTPrimeiroCliente_iOS"	by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[1]" />
+	
+	
+	
+<!-- Tela Baixar Cliente -->
+    		
+	<!-- iOS -->
+	<entry key="TelaBaixarCliente.TXTTitulo_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIAButton'])[3]" />
+	<entry key="TelaBaixarCliente.FiltroGerenciaComercial_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*/*/*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[1]" />
+	<entry key="TelaBaixarCliente.TXTGerenciaComercial_iOS"			by="xpath"	value="//*[@text and @class='UIAView' and ./*[@class='UIAButton']]" />
+	<entry key="TelaBaixarCliente.FiltroGerenciaVenda_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*/*/*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[2]" />
+	<entry key="TelaBaixarCliente.TXTGerenciaVenda_iOS"				by="xpath"	value="//*[@text and @class='UIAView' and ./*[@class='UIAButton']]" />
+	<entry key="TelaBaixarCliente.FiltroZonaVendas_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*/*/*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]])[1]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow']])[3]" />
+	<entry key="TelaBaixarCliente.TXTZonaVendas_iOS"				by="xpath"	value="//*[@text and @class='UIAView' and ./*[@class='UIAButton']]" />
+	<entry key="TelaBaixarCliente.TXTCodigoJDE_iOS"					by="xpath"	value="((((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIAView'])[2]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaBaixarCliente.TXTPontoVenda_iOS"				by="xpath"	value="((((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIAView'])[2]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIATextField'])[2]" />
+	<entry key="TelaBaixarCliente.TXTCNPJ_iOS"						by="xpath"	value="//*[@placeholder='00.000.000/0000-00']" />
+	<entry key="TelaBaixarCliente.TXTCliente_iOS"					by="xpath"	value="((((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIAView'])[2]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIATextField'])[4]" />
+	<entry key="TelaBaixarCliente.BTNPesquisar_iOS"					by="xpath"	value="((((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIAView'])[2]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIAView'])[2]" />
+	<entry key="TelaBaixarCliente.BTNLimpar_iOS"					by="xpath"	value="((((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIAView'])[2]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[3]/*[@class='UIAView'])[2]" />
+	<entry key="TelaBaixarCliente.BTNCancelar_iOS"					by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[4]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAView'])[1]" />
+	<entry key="TelaBaixarCliente.BTNBaixarClientes_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[4]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[2]/*[@class='UIAView'])[1]" />
+	<entry key="TelaBaixarCliente.SwitchTodosClientes_iOS"			by="xpath"	value="//*[@class='UIASwitch']" />
+	<entry key="TelaBaixarCliente.ColunaCNPJ_iOS"					by="xpath"	value="//*[@text='  CNPJ']" />
+	<entry key="TelaBaixarCliente.ColunaZonaVenda_iOS"				by="xpath"	value="//*[@text='Zona de Venda']" />
+	<entry key="TelaBaixarCliente.ColunaPontoVenda_iOS"				by="xpath"	value="//*[@text='Ponto de Venda' and ./parent::*[@text='  Cliente']]" />
+	<entry key="TelaBaixarCliente.ColunaGrupoEconomico_iOS"			by="xpath"	value="//*[@text='Grupo Econômico']" />
+	<entry key="TelaBaixarCliente.MsgBaixarCliente_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[40]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@text and @class='UIAStaticText'])[2]" />
+	
+<!-- Tela Visualizar Cliente -->
+    		
+	<!-- iOS -->
+	<entry key="TelaVisualizarCliente.TXTTitulo_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[3]/*[@class='UIAButton'])[3]" />
+	<entry key="TelaVisualizarCliente.TXTRazaoSocial_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[1]" />
+	<entry key="TelaVisualizarCliente.TXTCNPJ_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[9]" />
+				
+	<entry key="TelaVisualizarCliente.TXTGV_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[17]" />
+	<entry key="TelaVisualizarCliente.TXTZV_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[25]" />
+	<entry key="TelaVisualizarCliente.TXTPV_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[33]" />
+	<entry key="TelaVisualizarCliente.TXTPerfil_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[3]" />
+	<entry key="TelaVisualizarCliente.TXTCoordenadoria_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[11]" />
+	<entry key="TelaVisualizarCliente.TXTImagem_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[19]" />
+	<entry key="TelaVisualizarCliente.TXTAtividade_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[27]" />
+	<entry key="TelaVisualizarCliente.TXTTipoNegocio_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[35]" />
+	<entry key="TelaVisualizarCliente.TXTGrupoEconomico_iOS"		by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[5]" />
+	<entry key="TelaVisualizarCliente.TXTMicroMercado_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[13]" />
+	<entry key="TelaVisualizarCliente.TXTCodigoJDE_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[21]" />
+	<entry key="TelaVisualizarCliente.TXTCodigoTexaco_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[29]" />
+	<entry key="TelaVisualizarCliente.TXTValidade_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[37]" />
+	<entry key="TelaVisualizarCliente.TXTEndereco_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[7]" />
+	<entry key="TelaVisualizarCliente.TXTBairro_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[15]" />
+	<entry key="TelaVisualizarCliente.TXTCEP_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[23]" />
+	<entry key="TelaVisualizarCliente.TXTMunicipio_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[31]" />
+	<entry key="TelaVisualizarCliente.TXTUF_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[39]" />
+	<entry key="TelaVisualizarCliente.TXTMercado_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[41]" />
+		
+	<entry key="TelaVisualizarCliente.ComboVendasLimites_iOS"		by="xpath"	value="//*[@class='UIAStaticText' and ./parent::*[@accessibilityLabel='Vendas e Limites']]" />
+	<entry key="TelaVisualizarCliente.ComboContratosGarantias_iOS"	by="xpath"	value="//*[@class='UIAStaticText' and ./parent::*[@accessibilityLabel='Contratos e Garantias']]" />
+	<entry key="TelaVisualizarCliente.ComboContaCorrente_iOS"		by="xpath"	value="//*[@class='UIAStaticText' and ./parent::*[@accessibilityLabel='Conta Corrente']]" />
+	
+	<entry key="TelaVisualizarCliente.BTNFechar_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and ./parent::*[@class='UIAView']]]]]/*[@class='UIAView'])[1]" />
+	
+<!-- Tela Cliente -->
+    		
+	<!-- iOS -->
+	<entry key="TelaCliente.TXTTitulo_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[3]/*[@class='UIAButton'])[2]" />
+	<entry key="TelaCliente.TXTNomeProposta_iOS"		by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaCliente.TXTBuscarCliente_iOS"		by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[2]" />
+	<entry key="TelaCliente.BTNBuscar_iOS"				by="xpath"	value="//*[@class='UIAButton' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAStaticText']]" />
+	<entry key="TelaCliente.BTNCancelar_iOS"			by="xpath"	value="//*[@text='Cancelar']" />
+	<entry key="TelaCliente.BTNBaixarCliente_iOS"		by="xpath"	value="//*[@text='Baixar Cliente']" />
+	<entry key="TelaCliente.BTNNovoCliente_iOS"			by="xpath"	value="//*[@text='Novo Cliente']" />
+	<entry key="TelaCliente.BTNAvancar_iOS"				by="xpath"	value="//*[@text='Avançar']" />
+	<entry key="TelaCliente.SwitchPrimeiroCliente_iOS"	by="xpath"	value="(//*[@class='UIATable']/*/*[@class='UIASwitch'])[2]" />
+	<entry key="TelaCliente.MSGSelecionarCliente_iOS"	by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[31]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	
+	
+<!-- Tela Negociações -->
+    		
+	<!-- iOS -->
+	<entry key="TelaNegociacoes.TXTTitulo_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[3]/*[@class='UIAButton'])[2]" />	
+	<entry key="TelaNegociacoes.TXTNomeProposta_iOS"			by="xpath"	value="//*[@class='UIATextField']" />
+	<entry key="TelaNegociacoes.TXTStatusProposta_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIAView'])/*[@class='UIAStaticText'])[10]" />
+	<entry key="TelaNegociacoes.BTNNovaNegociacao_iOS"			by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and ./parent::*[@class='UIAView']]]/*[@class='UIAView'])[2]" />
+	<entry key="TelaNegociacoes.BTNEditarParecer_iOS"			by="xpath"	value="//*[@text='Editar Parecer']" />
+	<entry key="TelaNegociacoes.BTNCalcularTIR_iOS"				by="xpath"	value="//*[@text='Calcular TIR']" />
+	<entry key="TelaNegociacoes.BTNPoliticas_iOS"				by="xpath"	value="//*[@text='Políticas']" />
+	<entry key="TelaNegociacoes.BTNCancelar_iOS"				by="xpath"	value="//*[@text='Cancelar']" />
+	<entry key="TelaNegociacoes.BTNSalvar_iOS"					by="xpath"	value="//*[@text='Salvar']" />
+	<entry key="TelaNegociacoes.BTNPrimeiraNegociacao_iOS"		by="xpath"	value="(//*[@class='UIATable']/*[@class='UIAView' and ./*[@class='UIAStaticText']])[2]" />
+	<entry key="TelaNegociacoes.MSGNegociacao_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[42]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	
+	<entry key="TelaNegociacoes.MenuSalvar_iOS"					by="xpath"	value="//*[@class='UIAView' and @height>0 and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and (./preceding-sibling::* | ./following-sibling::*)[./*[./*[./*[./*[@text]]]]] and ./parent::*[@class='UIAView']] and ./*[@class='UIAStaticText']]" />
+	<entry key="TelaNegociacoes.MenuSalvarComo_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[1]" />
+	<entry key="TelaNegociacoes.MenuSalvarDescartar_iOS"		by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[2]" />
+	<entry key="TelaNegociacoes.MenuSalvarSalvar_iOS"			by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[3]" />
+	<entry key="TelaNegociacoes.MenuSalvarCancelar_iOS"			by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[4]" />
+	
+	
+<!-- Tela Perguntas -->
+
+	<!-- iOS -->
+	<entry key="TelaPerguntas.TXTTitulo_iOS"						by="xpath"	value="//*[@text='Perguntas' and @class='UIAButton']" />
+	<entry key="TelaPerguntas.TXTNomeProposta_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@text and @class='UIAStaticText'])[3]" />
+	<entry key="TelaPerguntas.TXTCliente_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@text and @class='UIAStaticText'])[4]" />
+	<entry key="TelaPerguntas.ListaPerfil_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[./*[@text and @class='UIAStaticText'] and ./*[@accessibilityLabel='drop-down-arrow']])[1]" />
+	<entry key="TelaPerguntas.ListaBaseSupridora_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[./*[@accessibilityLabel='drop-down-arrow']])[2]" />
+	<entry key="TelaPerguntas.SwitchPropostaRevisao_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIASwitch'])[1]" />
+	<entry key="TelaPerguntas.ListaTipoNegociacao_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[./*[@accessibilityLabel='drop-down-arrow']])[3]" />
+	<entry key="TelaPerguntas.SwitchVolumeIncremental_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIASwitch'])[2]" />
+	<entry key="TelaPerguntas.ListaMesesExistentes_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[./*[@text and @class='UIAStaticText'] and ./*[@accessibilityLabel='drop-down-arrow']])[4]" />
+	<entry key="TelaPerguntas.ListaMesesPropostos_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[./*[@text and @class='UIAStaticText'] and ./*[@accessibilityLabel='drop-down-arrow']])[5]" />
+	<entry key="TelaPerguntas.ListaMesesSemVenda_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[./*[@text and @class='UIAStaticText'] and ./*[@accessibilityLabel='drop-down-arrow']])[6]" />
+	<entry key="TelaPerguntas.SwitchSucessao_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIASwitch'])[1]" />
+	<entry key="TelaPerguntas.SwitchLocacao_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIASwitch'])[2]" />
+	<entry key="TelaPerguntas.SwitchLitigio_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIASwitch'])[3]" />
+	<entry key="TelaPerguntas.SwitchPMI_iOS"						by="xpath"	value="//*[@class='UIASwitch' and ./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@text]]]" />
+	<entry key="TelaPerguntas.SwitchTrocaOperador_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIASwitch'])[4]" />
+	<entry key="TelaPerguntas.SwitchRodoRede_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIASwitch'])[5]" />
+	<entry key="TelaPerguntas.SwitchExtraFarma_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIASwitch'])[6]" />
+	<entry key="TelaPerguntas.SwitchLavapor_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIASwitch'])[7]" />
+	<entry key="TelaPerguntas.TXTMetragem_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaPerguntas.TXTAluguelCobrado_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIATextField'])[2]" />
+	<entry key="TelaPerguntas.ListaNovoRelacionamento_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[./*[@accessibilityLabel='drop-down-arrow']])[1]" />
+	<entry key="TelaPerguntas.ListaPostoParalisado_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[./*[@accessibilityLabel='drop-down-arrow']])[2]" />
+	<entry key="TelaPerguntas.ListaRegimePA_iOS"					by="xpath"	value="//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[./*[@class='UIASwitch']] and ./*[@text and @class='UIAStaticText'] and ./*[@accessibilityLabel='drop-down-arrow']]" />
+	<entry key="TelaPerguntas.BTNCancelar_iOS"						by="xpath"	value="//*[@text='Cancelar']" />
+	<entry key="TelaPerguntas.BTNProsseguir_iOS"					by="xpath"	value="//*[@text='Prosseguir']" />
+	<entry key="TelaPerguntas.MSGPerguntas_iOS"						by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[36]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@text and @class='UIAStaticText'])[2]" />
+	
+<!-- Tela Detalhes Negociação -->
+    		
+	<!-- Geral -->
+	<entry key="TelaDetalhesNegociacao.BTNCalcularTIR_iOS"			by="xpath"	value="//*[@text='Calcular TIR']" />
+	<entry key="TelaDetalhesNegociacao.BTNPoliticas_iOS"			by="xpath"	value="//*[@text='Políticas']" />
+	<entry key="TelaDetalhesNegociacao.BTNCancelar_iOS"				by="xpath"	value="//*[@text='Cancelar']" />
+	<entry key="TelaDetalhesNegociacao.BTNSalvar_iOS"				by="xpath"	value="//*[@text='Salvar']" />
+	
+	<entry key="TelaDetalhesNegociacao.BTNSalvarComo_iOS"			by="xpath"	value="//*[@text='Salvar Como']" />
+	<entry key="TelaDetalhesNegociacao.BTNDescartarAlteracoes_iOS"	by="xpath"	value="//*[@text='Descartar alterações']" />
+	<entry key="TelaDetalhesNegociacao.BTNSalvar2_iOS"				by="xpath"	value="//*[@text='Salvar' and @class='UIAButton']" />
+	<entry key="TelaDetalhesNegociacao.BTNCancelarSalvar_iOS"		by="xpath"	value="//*[@text='Cancelar' and @class='UIAButton']" />
+	<entry key="TelaDetalhesNegociacao.BTNOKMsgSalvar_iOS"			by="xpath"	value="//*[@text='OK' and ./parent::*[./parent::*[./parent::*[@class='UIAView']]]]" />
+	
+	<entry key="TelaDetalhesNegociacao.TXTRenomear_iOS"				by="xpath"	value="//*[@placeholder='Nome']" />
+	<entry key="TelaDetalhesNegociacao.BTNCancelarRenomear_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[58]/*/*/*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]])[2]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[1]" />
+	
+	<entry key="TelaDetalhesNegociacao.BTNAnterior_iOS"				by="xpath"	value="//*[@text='previous']" />
+	<entry key="TelaDetalhesNegociacao.BTNProximo_iOS"				by="xpath"	value="//*[@text='next']" />
+	<entry key="TelaDetalhesNegociacao.MSGDetalhesNegociacao_iOS"	by="xpath"	value="(//*[@class='UIAView' and @height>0 and ./*[@text and @class='UIAStaticText']])[26]//*[@class='UIAStaticText'][2]" />
+	<entry key="TelaDetalhesNegociacao.MSGAlertaDetalhes_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[58]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@text and @class='UIAStaticText'])[1]" />
+	
+	<!-- Aba Posto -->
+	<entry key="TelaPosto.BTNFotoPosto_iOS"					by="xpath"	value="//*[@class='UIAButton' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@text]] and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAImage']]" />
+	<entry key="TelaPosto.ListaTerrenoProprio_iOS"			by="xpath"	value="//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@text] and ./*[@class='UIAStaticText'] and ./*[@accessibilityLabel='drop-down-arrow']]" />
+	<entry key="TelaPosto.TXTTempoRestanteLocacao_iOS"		by="xpath"	value="//*[@class='UIATextField']" />
+	<entry key="TelaPosto.ListaTempoAtividade_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]]/*[@class='UIAView'])[2]/*/*[@class='UIAView' and ./*[@class='UIAStaticText'] and ./*[@accessibilityLabel='drop-down-arrow']])[2]" />
+	
+	<!-- Aba Franquias -->
+	<entry key="TelaFranquias.TXTAMPM_iOS"					by="xpath"	value="//*[@text='AM/PM']" />
+	<entry key="TelaFranquias.SwitchAMPM_iOS"				by="xpath"	value="//*[@class='UIASwitch' and (./preceding-sibling::* | ./following-sibling::*)[@text='AM/PM']]" />
+	<entry key="TelaFranquias.TXTJetOil_iOS"				by="xpath"	value="//*[@text='Jet Oil']" />
+	<entry key="TelaFranquias.SwitchJetOil_iOS"				by="xpath"	value="//*[@class='UIASwitch' and (./preceding-sibling::* | ./following-sibling::*)[@text='Jet Oil']]" />
+	<entry key="TelaFranquias.TXTJetOilMotos_iOS"			by="xpath"	value="//*[@text='Jet Oil Motos']" />
+	<entry key="TelaFranquias.SwitchJetOilMotos_iOS"		by="xpath"	value="//*[@class='UIASwitch' and (./preceding-sibling::* | ./following-sibling::*)[@text='Jet Oil Motos']]" />
+	
+	<entry key="TelaFranquias.TXTParceiros_iOS"				by="xpath"	value="//*[@text='Parceiros']" />
+	<entry key="TelaFranquias.TXTQuantidade_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaFranquias.TXTReceitaMedia_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[2]" />
+	<entry key="TelaFranquias.TXTAreaDisponivel_iOS"		by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[3]" />
+	<entry key="TelaFranquias.TXTValorAluguel_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]]/*[@class='UIAView'])[4]/*[@class='UIATextField'])[4]" />
+	
+	<!-- Aba Volume -->
+	<entry key="TelaVolume.TXTIncrementoVlmTotal_iOS"		by="xpath"	value="//*[@text and @class='UIATextField' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAButton']]" />
+	<entry key="TelaVolume.BTNIncrementoVlmTotal_iOS"		by="xpath"	value="//*[@text and @class='UIAButton' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAStaticText']]" />
+	<entry key="TelaVolume.SwitchCompressorGNV_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIASwitch'])[1]" />
+	<entry key="TelaVolume.SwitchContratoGNV_iOS"			by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIASwitch'])[2]" />
+	<entry key="TelaVolume.TXTRoyalties_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIATextField'])[2]" />
+	
+	<entry key="TelaVolume.ColunaProduto_iOS"				by="xpath"	value="//*[@text='Produto' and @class='UIAStaticText']" />
+	<entry key="TelaVolume.ColunaLMC_iOS"					by="xpath"	value="//*[@text='LMC']" />
+	<entry key="TelaVolume.ColunaPrazoPgtoExist_iOS"		by="xpath"	value="//*[@text='Prazo Pgto Exist']" />
+	<entry key="TelaVolume.ColunaUltimos12Meses_iOS"		by="xpath"	value="//*[@text='Últimos 12 Meses']" />
+	<entry key="TelaVolume.ColunaDesconto_iOS"				by="xpath"	value="//*[@text='Desconto (%)']" />
+	<entry key="TelaVolume.ColunaPrazoPgtoProposto_iOS"		by="xpath"	value="//*[@text='Prazo Pgto Proposto (dias)']" />
+	<entry key="TelaVolume.ColunaVolumeExistente_iOS"		by="xpath"	value="//*[@text='Volume Exist.']" />
+	<entry key="TelaVolume.ColunaVolumeProposto_iOS"		by="xpath"	value="//*[@text='Volume Proposto']" />
+	
+	<entry key="TelaVolume.LinhaTotalCombustiveis_iOS"		by="xpath"	value="//*[@accessibilityLabel='Total Combustíveis (m³)']" />
+	<entry key="TelaVolume.TotalColunaLMC_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView']))[10]/*[@class='UIAStaticText'][2]" />
+	<entry key="TelaVolume.TotalColunaVolumeReferencia_iOS"	by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView']))[10]/*[@class='UIAStaticText'][2]" />
+	<entry key="TelaVolume.TotalColunaVolumeExist_iOS"		by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView']))[10]/*[@class='UIAStaticText'][6]" />
+	<entry key="TelaVolume.TotalColunaVolume12Meses_iOS"	by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView']))[10]/*[@class='UIAStaticText'][3]" />
+		
+	
+	<entry key="TelaVolume.PrazoPropostoGasComum_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	<entry key="TelaVolume.PrazoPropostoGasPremium_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[3]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	<entry key="TelaVolume.PrazoPropostoGasAditivada_iOS"		by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[4]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	<entry key="TelaVolume.PrazoPropostoEtanol_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[5]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	<entry key="TelaVolume.PrazoPropostoDieselComum_iOS"		by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[6]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	<entry key="TelaVolume.PrazoPropostoDieselAditivado_iOS"	by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[7]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	<entry key="TelaVolume.PrazoPropostoGasNatural_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[8]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	<entry key="TelaVolume.PrazoPropostoOleosCombustiveis_iOS"	by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[9]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	<entry key="TelaVolume.PrazoPropostoOleosLubrificantes_iOS"	by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[11]/*[@class='UIATextField' and not(contains(text(),','))])" />
+	
+	<entry key="TelaVolume.LMCGasComum_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	<entry key="TelaVolume.LMCGasPremium_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[3]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	<entry key="TelaVolume.LMCGasAditivada_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[4]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	<entry key="TelaVolume.LMCEtanol_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[5]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	<entry key="TelaVolume.LMCDieselComum_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[6]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	<entry key="TelaVolume.LMCDieselAditivado_iOS"		by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[7]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	<entry key="TelaVolume.LMCGasNatural_iOS"			by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[8]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	<entry key="TelaVolume.LMCOleosCombustiveis_iOS"	by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[9]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	<entry key="TelaVolume.LMCOleosLubrificantes_iOS"	by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[11]/*[@class='UIATextField' and (contains(text(),','))])[3]" />
+	
+	
+	<entry key="TelaVolume.BTNConsultarCenarioIdeal_iOS"	by="xpath"	value="((//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView' and ./*[./*[@class='UIAView']]] and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[2]/*/*/*[@text='Consultar Cenário Ideal'])[2]" />
+	<entry key="TelaVolume.SwitchEspacoFranquias_iOS"		by="xpath"	value="//*[@class='UIASwitch' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']]" />
+	<entry key="TelaVolume.MSGCenarioConsultado_iOS"		by="xpath"	value="(//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView' and ./*[./*[@class='UIAView']]] and ./parent::*[@class='UIAView']]/*[@class='UIAStaticText'])[6]" />
+	<entry key="TelaVolume.MSGCenarioConsultado2_iOS"		by="xpath"	value="(//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView' and ./*[./*[@class='UIAView']]] and ./parent::*[@class='UIAView']]/*[@class='UIAStaticText'])[4]" />
+	<entry key="TelaVolume.TXTTipoNegocioSugerido_iOS"		by="xpath"	value="(//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView' and ./*[./*[@class='UIAView']]] and ./parent::*[@class='UIAView']]/*[@text and @class='UIAStaticText'])[5]" />
+	<entry key="TelaVolume.TXTTipoNegocioSugerido2_iOS"		by="xpath"	value="(//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAScrollView' and ./*[./*[@class='UIAView']]] and ./parent::*[@class='UIAView']]/*[@text and @class='UIAStaticText'])[3]" />
+	<entry key="TelaVolume.ListaTipoNegocioProposto_iOS"	by="xpath"	value="//*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow'] and ./parent::*[@class='UIAView']]" />
+	<entry key="TelaVolume.MSGVolume_iOS"					by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[66]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@text and @class='UIAStaticText'])[2]" />
+	<entry key="TelaVolume.BTNConfirmarConsulta_iOS"		by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@text and @class='UIAButton'])[2]" />
+	<entry key="TelaVolume.BTNCancelarConsulta_iOS"			by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@text and @class='UIAButton'])[1]" />
+	
+	<!-- Aba Garantias -->
+	<entry key="TelaGarantias.TXTGarantiasExistentes_iOS"				by="xpath"	value="//*[@text='Garantias Existentes']" />
+	<entry key="TelaGarantias.BTNRepetir_iOS"							by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIAView'])[1]/*[@class='UIAView'])[1]/*/*[@class='UIAView' and ./*[@class='UIAImage'] and ./*[@class='UIAStaticText'] and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[1]" />
+	<entry key="TelaGarantias.ColunaCodigoExist_iOS"					by="xpath"	value="//*[@text='Código' and @class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@text='1']]" />
+	<entry key="TelaGarantias.TXTCodigoExist_iOS"						by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[1]" />
+	<entry key="TelaGarantias.ColunaDescricaoExist_iOS"					by="xpath"	value="//*[@text='Descrição' and (./preceding-sibling::* | ./following-sibling::*)[@text='1']]" />
+	<entry key="TelaGarantias.TXTDescricaoExist_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaGarantias.ColunaValorExis_iOS"						by="xpath"	value="//*[@text='Valor (R$)' and (./preceding-sibling::* | ./following-sibling::*)[@text='1']]" />
+	<entry key="TelaGarantias.TXTValorExis_iOS"							by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[3]" />
+	<entry key="TelaGarantias.ColunaValorizacao_iOS"					by="xpath"	value="//*[@text='Valorização (R$)']" />
+	<entry key="TelaGarantias.ColunaVencimentoExist_iOS"				by="xpath"	value="//*[@text='Vencimento' and (./preceding-sibling::* | ./following-sibling::*)[@text='1']]" />
+	<entry key="TelaGarantias.TXTVencimentoExist_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[5]" />
+	<entry key="TelaGarantias.SwitchTodasGarantias_iOS"					by="xpath"	value="//*[@class='UIASwitch' and ./parent::*[@text]]" />
+	<entry key="TelaGarantias.SwitchPrimeiraGarantia_iOS"				by="xpath"	value="(//*[@class='UIATable']/*/*[@class='UIASwitch'])[2]" />
+	<entry key="TelaGarantias.SwitchExistemGarantiasPropostas_iOS"		by="xpath"	value="//*[@class='UIASwitch' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']]" />
+	<entry key="TelaGarantias.TXTGarantiasPropostas_iOS"				by="xpath"	value="//*[@text='Garantias Propostas']" />
+	<entry key="TelaGarantias.BTNNova_iOS"								by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIAView'])[2]/*[@class='UIAView'])[1]/*/*[@class='UIAView' and ./*[@class='UIAImage'] and ./*[@class='UIAStaticText'] and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[1]" />
+	<entry key="TelaGarantias.ColunaCodigoProp_iOS"						by="xpath"	value="//*[@text='Código' and @class='UIAStaticText' and ./parent::*[(./preceding-sibling::* | ./following-sibling::*)[./*[@class='UIATextField']]]]" />
+	<entry key="TelaGarantias.TXTCodigoProp_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./*[@class='UIATextField']])[1]/*[@class='UIAStaticText'])[1]" />
+	<entry key="TelaGarantias.ColunaDescricaoProp_iOS"					by="xpath"	value="//*[@text='Descrição' and ./parent::*[(./preceding-sibling::* | ./following-sibling::*)[./*[@class='UIATextField']]]]" />
+	<entry key="TelaGarantias.ListaDescricaoProp_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./*[@class='UIATextField']])[1]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaGarantias.ColunaValorProp_iOS"						by="xpath"	value="//*[@text='Valor (R$)' and ./parent::*[(./preceding-sibling::* | ./following-sibling::*)[./*[@class='UIATextField']]]]" />
+	<entry key="TelaGarantias.TXTValorProp_iOS"							by="xpath"	value="((//*[@class='UIATable' and (./preceding-sibling::* | ./following-sibling::*)[@text='Garantias Propostas']]/*[@class='UIAView'])/*[@class='UIATextField'])[2]" />
+	<entry key="TelaGarantias.ColunaVencimentoProp_iOS"					by="xpath"	value="//*[@text='Vencimento' and ./parent::*[(./preceding-sibling::* | ./following-sibling::*)[./*[@class='UIATextField']]]]" />
+	<entry key="TelaGarantias.TXTVencimentoProp_iOS"					by="xpath"	value="((//*[@class='UIATable' and (./preceding-sibling::* | ./following-sibling::*)[@text='Garantias Propostas']]/*[@class='UIAView'])/*[@class='UIATextField'])[1]" />
+	<entry key="TelaGarantias.BTNApagarProposta_iOS"					by="xpath"	value="//*[@text='ic limpar']" />	
+	<entry key="TelaGarantias.BTNExcluirGarantia_iOS"					by="xpath"	value="//*[@text='Excluir']" />
+	<entry key="TelaGarantias.BTNCancelarExcluir_iOS"					by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton' and ./parent::*[@class='UIAView']])[1]" />
+	<entry key="TelaGarantias.MSGGarantias_iOS"							by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[64]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaGarantias.MSGNenhumItemEncontrado_iOS"				by="xpath"	value="//*[@text and @class='UIATable']" />
+
+	<!-- Aba Aluguel -->
+	<entry key="TelaAluguel.ListaTipoContrato_iOS"				by="xpath"	value="//*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@accessibilityLabel='drop-down-arrow'] and ./parent::*[@class='UIAView']]" />
+	<entry key="TelaAluguel.TXTAluguelMaximo_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaAluguel.TXTAluguelMinimo_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATextField'])[2]" />
+	<entry key="TelaAluguel.TXTTaxaMinima_iOS"					by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATextField'])[3]" />
+	
+	<entry key="TelaAluguel.TabelaAlugueisAReceber_iOS"			by="xpath"	value="//*[@text='Aluguéis a Receber']" />
+	<entry key="TelaAluguel.TXTDescricaoAReceber_iOS"			by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*/*/*[@text and @class='UIATextField'])[1]" />
+	<entry key="TelaAluguel.TXTMesInicialAReceber_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATable'])[1]/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[1]" />
+	<entry key="TelaAluguel.TXTMesFinalAReceber_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATable'])[1]/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaAluguel.TXTParcelaAReceber_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATable'])[1]/*[@class='UIAView'])[2]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaAluguel.BTNNovoAReceber_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIAView'])[2]/*/*[@class='UIAView' and ./*[@text='plus-circle']])[1]" />
+	<entry key="TelaAluguel.BTNExcluirAReceber_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*/*/*[@text='ic limpar'])[1]" />
+	<entry key="TelaAluguel.MSGNenhumEncontradoReceber_iOS"		by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATable'])[2]" />
+	
+	<entry key="TelaAluguel.TabelaAlugueisAPagar_iOS"			by="xpath"	value="//*[@text='Aluguéis a Pagar']" />
+	<entry key="TelaAluguel.TXTDescricaoAPagar_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*/*/*[@text and @class='UIATextField'])[2]" />
+	<entry key="TelaAluguel.TXTMesInicialAPagar_iOS"			by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATable'])[2]/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[1]" />
+	<entry key="TelaAluguel.TXTMesFinalAPagar_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATable'])[2]/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaAluguel.TXTParcelaAPagar_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATable'])[2]/*[@class='UIAView'])[2]/*[@class='UIATextField'])[1]" />
+	<entry key="TelaAluguel.BTNNovoAPagar_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIAView'])[4]/*/*[@class='UIAView' and ./*[@accessibilityLabel='plus-circle']])[1]" />
+	<entry key="TelaAluguel.BTNExcluirAReceber_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*/*/*[@text='ic limpar'])[2]" />
+	<entry key="TelaAluguel.MSGNenhumEncontradoPagar_iOS"		by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView' and ./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[./parent::*[@class='UIAView']]]]]]]]]/*[@class='UIATable'])[2]" />
+	
+<!-- Tela Exposição Proposta -->
+    		
+	<!-- iOS -->
+	<entry key="TelaExposicaoProposta.TXTTitulo_iOS"						by="xpath"	value="//*[@text='Exposição']" />
+	<entry key="TelaExposicaoProposta.TXTExposicaoTotalProposta_iOS"		by="xpath"	value="//*[@text='Exposição Total da Proposta']" />
+	
+	<entry key="TelaExposicaoProposta.ColunaNegociacao_iOS"					by="xpath"	value="//*[@text='Negociação' and @class='UIAStaticText']" />
+	<entry key="TelaExposicaoProposta.ColunaRazaoSocial_iOS"				by="xpath"	value="//*[@text='Razão Social' and ./parent::*[@text='Negociação']]" />
+	<entry key="TelaExposicaoProposta.ColunaCNPJ_iOS"						by="xpath"	value="//*[@text='CNPJ' and ./parent::*[@text='Negociação']]" />
+	<entry key="TelaExposicaoProposta.ColunaGrupo_iOS"						by="xpath"	value="//*[@text='Grupo' and ./parent::*[@text='Negociação']]" />
+	<entry key="TelaExposicaoProposta.ColunaValorExistente_iOS"				by="xpath"	value="//*[@text='Valor Existente (R$)']" />
+	<entry key="TelaExposicaoProposta.ColunaValorProposto_iOS"				by="xpath"	value="//*[@text='Valor Proposto (R$)']" />
+	<entry key="TelaExposicaoProposta.ColunaTotal_iOS"						by="xpath"	value="//*[@text='Total (R$)']" />
+	<entry key="TelaExposicaoProposta.LinhaTotal_iOS"						by="xpath"	value="//*[@text='TOTAL (R$)' and @class='UIAStaticText']" />
+
+	<entry key="TelaExposicaoProposta.BTNFechar_iOS"						by="xpath"	value="//*[@class='UIAView' and ./*[@accessibilityLabel='close-circle']]" />
+	<entry key="TelaExposicaoProposta.MSGSalvarAlteracoes_iOS"				by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[19]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaExposicaoProposta.BTNNao_iOS"							by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@class='UIAView']] and ./parent::*[@class='UIAView']]]]/*/*[@class='UIAButton'])[1]" />
+	
+	
+<!-- Tela Exposição Negociação -->
+    		
+	<!-- iOS -->
+	<entry key="TelaExposicaoNegociacao.TXTTitulo_iOS"						by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[1]/*[@class='UIAStaticText'])[1]" />
+	<entry key="TelaExposicaoNegociacao.TXTTotalExposicaoExistente_iOS"		by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[3]" />
+	<entry key="TelaExposicaoNegociacao.TXTTotalExposiçãoProposto_iOS"		by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIAView'])[3]/*[@class='UIAStaticText'])[3]" />
+	<entry key="TelaExposicaoNegociacao.TXTValorProposto_iOS"				by="xpath"	value="//*[@class='UIATextField']" />
+	<entry key="TelaExposicaoNegociacao.BTNOk_iOS"							by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[5]/*[@class='UIAView'])[2]/*/*[@class='UIAView' and ./*[@accessibilityLabel='ic_check']])[2]" />
+	<entry key="TelaExposicaoNegociacao.BTNCancelar_iOS"					by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[5]/*[@class='UIAView'])[1]/*/*[@class='UIAView' and ./*[@accessibilityLabel='close-circle']])[1]" />
+	<entry key="TelaExposicaoNegociacao.TXTExposicaoTotalProposto_iOS"		by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[5]" />
+
+
+<!-- Tela TIR Proposta -->
+    		
+	<!-- iOS -->
+	<entry key="TelaTIRProposta.TXTTitulo_iOS"		by="xpath"	value="//*[@text='TIR Proposta']" />
+	<entry key="TelaTIRProposta.BTNFechar_iOS"		by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[1]" />
+
+<!-- Tela Politicas Proposta -->
+    		
+	<!-- iOS -->
+	<entry key="TelaPoliticasProposta.TXTTitulo_iOS"					by="xpath"	value="//*[@text='Políticas Proposta' and @class='UIAButton']" />
+	
+	<entry key="TelaPoliticasProposta.TXTTitulo_iOS"					by="xpath"	value="//*[@text='Políticas Proposta' and @class='UIAButton']" />
+	<entry key="TelaPoliticasProposta.ColunaNegociacao_iOS"				by="xpath"	value="(//*/*[@class='UIAStaticText'])[4]" />
+	<entry key="TelaPoliticasProposta.ColunaCliente_iOS"				by="xpath"	value="(//*/*[@class='UIAStaticText'])[5]" />
+	<entry key="TelaPoliticasProposta.ColunaErros_iOS"					by="xpath"	value="(//*/*[@class='UIAStaticText'])[6]" />
+	<entry key="TelaPoliticasProposta.ColunaForaPolitica_iOS"			by="xpath"	value="(//*/*[@class='UIAStaticText'])[7]" />
+	<entry key="TelaPoliticasProposta.ColunaAlertas_iOS"				by="xpath"	value="(//*/*[@class='UIAStaticText'])[8]" />
+	<entry key="TelaPoliticasProposta.ColunaOportunidades_iOS"			by="xpath"	value="(//*/*[@class='UIAStaticText'])[9]" />
+	<entry key="TelaPoliticasProposta.SecaoNegociacoes_iOS"				by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[1]" />
+	<entry key="TelaPoliticasProposta.SecaoLegenda_iOS"					by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*/*[@class='UIAStaticText' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView']])[2]" />
+	
+	<entry key="TelaPoliticasProposta.BTNFechar_iOS"					by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView'] and ./parent::*[@class='UIAView']]]/*[@class='UIAView'])[2]/*[@class='UIAView'])[1]" />
+	<entry key="TelaPoliticasProposta.BTNPrimeiraNegociacao_iOS"		by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAButton'])[5]" />
+	<entry key="TelaPoliticasProposta.BTNErros_iOS"						by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAButton'])[1]" />
+	<entry key="TelaPoliticasProposta.BTNForaPolitica_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAButton'])[2]" />
+	<entry key="TelaPoliticasProposta.BTNAlertas_iOS"					by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAButton'])[3]" />
+	<entry key="TelaPoliticasProposta.BTNOportunidades_iOS"				by="xpath"	value="((//*[@class='UIATable']/*[@class='UIAView'])[2]/*[@class='UIAButton'])[4]" />
+	
+<!-- Tela Politicas Negociação -->
+    		
+	<!-- iOS -->
+	<entry key="TelaPoliticasNegociacao.TXTTitulo_iOS"					by="xpath"	value="//*[@text='Políticas Negociação' and @class='UIAButton']" />
+	<entry key="TelaPoliticasNegociacao.ColunaCliente_iOS"				by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIAStaticText'])[1]" />
+	<entry key="TelaPoliticasNegociacao.ColunaTipoNegociacao_iOS"		by="xpath"	value="((//*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView' and ./parent::*[@class='UIAView']]]]/*[@class='UIAView'])[4]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaPoliticasNegociacao.TabelaPoliticas_iOS"			by="xpath"	value="//*[@class='UIAView' and ./*[@class='UIATable']]" />	
+	
+	<entry key="TelaPoliticasNegociacao.BTNOk_iOS"						by="xpath"	value="//*[@text='OK' and @class='UIAStaticText']" />
+	<entry key="TelaPoliticasNegociacao.BTNCancelar_iOS"				by="xpath"	value="//*[@text='Cancelar']" />
+	<entry key="TelaPoliticasNegociacao.BTNJustificativa_iOS"			by="xpath"	value="//*[@text='ic novo']" />
+	<entry key="TelaPoliticasNegociacao.BTNFechaJustificativa_iOS"		by="xpath"	value="//*[@text='ic minus']" />
+	<entry key="TelaPoliticasNegociacao.TXTJustificativa_iOS"			by="xpath"	value="//*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAStaticText'] and ./parent::*[@class='UIAView' and ./parent::*[@class='UIATable']]]" />
+	<entry key="TelaPoliticasNegociacao.MSGPoliticasNegociacao_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAView']]/*[@class='UIAView'])[30]/*/*[@class='UIAView' and ./parent::*[@class='UIAView']])[1]/*[@class='UIAStaticText'])[2]" />
+	<entry key="TelaPoliticasNegociacao.BTNOKMSG_iOS"					by="xpath"	value="//*[@text='OK' and @class='UIAButton']" />
+	
+	
+<!-- Tela Finalizar Proposta -->
+    		
+	<!-- iOS -->
+	<entry key="TelaFinalizarProposta.TXTTitulo_iOS"					by="xpath"	value="//*[@text='Finalizar Proposta' and @class='UIAButton']" />
+	<entry key="TelaFinalizarProposta.TabelaNegociacoes_iOS"			by="xpath"	value="//*[@text='Negociações' and @class='UIAStaticText']" />
+	<entry key="TelaFinalizarProposta.BTNFechar_iOS"					by="xpath"	value="(//*[@class='UIAView' and ./parent::*[@class='UIAView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[@text='Minhas Propostas em Elaboração']] and ./parent::*[@class='UIAView']]]/*/*/*[@text='Fechar'])[2]" />
+	<entry key="TelaFinalizarProposta.LinkErroPreenchimento_iOS"		by="xpath"	value="(((//*[@class='UIAView' and ./parent::*[@class='UIAScrollView']]/*[@class='UIATable'])[1]/*[@class='UIAView'])[2]/*[@class='UIAStaticText'])[2]" />
+	
+</locators>
